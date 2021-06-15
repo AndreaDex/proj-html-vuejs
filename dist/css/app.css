@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .container {
@@ -27,7 +27,7 @@ body {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .container {
@@ -46,13 +46,12 @@ body {
   background-image: url("/dist/img/home-page-slider.jpg");
   background-size: cover;
   background-position-y: -60px;
-  height: 600px;
+  height: 550px;
 }
 #site_header nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding-top: 30px;
+  padding-top: 25px;
 }
 #site_header nav .logo_img {
   height: 50px;
@@ -93,9 +92,19 @@ body {
   text-transform: uppercase;
   font-weight: 300;
   font-size: 40px;
+  letter-spacing: 2px;
 }
 #site_header .jumbotron p {
-  font-size: 13px;
+  font-size: 15px;
   padding: 10px;
   color: #ffffff9f;
+}
+#site_header .jumbotron button {
+  border: 1px solid white;
+  margin: 15px 5px;
+  font-size: 11px;
+}
+#site_header .jumbotron button:hover {
+  border: 1px solid #fec96a;
+  color: #fec96a;
 }

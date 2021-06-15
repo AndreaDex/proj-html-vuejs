@@ -6,10 +6,10 @@
   background-image: url("/dist/img/home-page-slider.jpg");
   background-size: cover;
   background-position-y: -60px;
-  height: 600px;
+  height: 550px;
   nav {
     @include flex_btw;
-    padding-top: 30px;
+    padding-top: 25px;
 
     .logo_img {
       height: 50px;
@@ -59,12 +59,23 @@
       text-transform: uppercase;
       font-weight: 300;
       font-size: 40px;
+      letter-spacing: 2px;
     }
 
     p {
-      font-size: 13px;
+      font-size: 15px;
       padding: 10px;
       color: #ffffff9f;
+    }
+
+    button {
+      border: 1px solid white;
+      margin: 15px 5px;
+      font-size: 11px;
+      &:hover {
+        border: 1px solid $golden;
+        color: $golden;
+      }
     }
   }
 }
