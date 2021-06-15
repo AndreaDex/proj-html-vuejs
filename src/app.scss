@@ -1,2 +1,8 @@
+// Common Rule
 @use 'partials/common';
+
+// Layout modules
 @use 'partials/header';
+//Main
+// section 'moment'
+@use 'partials/moment';

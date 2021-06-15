@@ -7,6 +7,17 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+
+h1,
+h2 {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+p {
+  color: #9aa0a1;
+}
+
 .container {
   width: 90%;
   margin: auto;
@@ -16,4 +27,5 @@ body {
   padding: 6px 18px;
   background-color: transparent;
   color: white;
+  font-size: 11px;
 }

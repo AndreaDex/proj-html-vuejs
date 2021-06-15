@@ -1,0 +1,45 @@
+@import "mixin";
+@import "color";
+
+#moments {
+  display: flex;
+  height: 400px;
+  .moment_lx {
+    width: 70%;
+    height: 100%;
+    padding: 75px;
+
+    h2::after {
+      @include after_bar;
+      margin-top: 10px;
+    }
+
+    p {
+      font-size: 12px;
+      padding: 10px 0;
+      line-height: 25px;
+    }
+
+    button {
+      border: none;
+      background-color: $golden;
+    }
+  }
+  .moment_rx {
+    width: 30%;
+    background-image: url("/dist/img/home-content-bg-1.jpg");
+    background-size: contain;
+    color: $text_white;
+    display: flex;
+    justify-content: space-evenly;
+    .live_data {
+      text-align: center;
+      i {
+        font-size: 25px;
+      }
+      span {
+        font-size: 25px;
+      }
+    }
+  }
+}

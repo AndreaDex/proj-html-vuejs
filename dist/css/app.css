@@ -8,6 +8,16 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+h1,
+h2 {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+p {
+  color: #9aa0a1;
+}
+
 .container {
   width: 90%;
   margin: auto;
@@ -18,6 +28,7 @@ body {
   padding: 6px 18px;
   background-color: transparent;
   color: white;
+  font-size: 11px;
 }
 
 * {
@@ -30,6 +41,16 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+h1,
+h2 {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+p {
+  color: #9aa0a1;
+}
+
 .container {
   width: 90%;
   margin: auto;
@@ -40,6 +61,7 @@ body {
   padding: 6px 18px;
   background-color: transparent;
   color: white;
+  font-size: 11px;
 }
 
 #site_header {
@@ -89,7 +111,6 @@ body {
   color: #fff;
 }
 #site_header .jumbotron h1 {
-  text-transform: uppercase;
   font-weight: 300;
   font-size: 40px;
   letter-spacing: 2px;
@@ -102,9 +123,52 @@ body {
 #site_header .jumbotron button {
   border: 1px solid white;
   margin: 15px 5px;
-  font-size: 11px;
 }
 #site_header .jumbotron button:hover {
   border: 1px solid #fec96a;
   color: #fec96a;
+}
+
+#moments {
+  display: flex;
+  height: 400px;
+}
+#moments .moment_lx {
+  width: 70%;
+  height: 100%;
+  padding: 75px;
+}
+#moments .moment_lx h2::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 140px;
+  background-color: #fec96a;
+  margin-top: 10px;
+}
+#moments .moment_lx p {
+  font-size: 12px;
+  padding: 10px 0;
+  line-height: 25px;
+}
+#moments .moment_lx button {
+  border: none;
+  background-color: #fec96a;
+}
+#moments .moment_rx {
+  width: 30%;
+  background-image: url("/dist/img/home-content-bg-1.jpg");
+  background-size: contain;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+}
+#moments .moment_rx .live_data {
+  text-align: center;
+}
+#moments .moment_rx .live_data i {
+  font-size: 25px;
+}
+#moments .moment_rx .live_data span {
+  font-size: 25px;
 }

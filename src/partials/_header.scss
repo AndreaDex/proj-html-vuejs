@@ -56,7 +56,6 @@
     color: $text_white;
 
     h1 {
-      text-transform: uppercase;
       font-weight: 300;
       font-size: 40px;
       letter-spacing: 2px;
@@ -71,7 +70,7 @@
     button {
       border: 1px solid white;
       margin: 15px 5px;
-      font-size: 11px;
+
       &:hover {
         border: 1px solid $golden;
         color: $golden;
