@@ -1,0 +1,70 @@
+@import "color";
+@import "mixin";
+@import "common";
+
+#site_header {
+  background-image: url("/dist/img/home-page-slider.jpg");
+  background-size: cover;
+  background-position-y: -60px;
+  height: 600px;
+  nav {
+    @include flex_btw;
+    padding-top: 30px;
+
+    .logo_img {
+      height: 50px;
+    }
+
+    .menu {
+      .menu_list {
+        list-style: none;
+
+        li {
+          display: inline-block;
+          padding: 15px;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+
+          a {
+            text-decoration: none;
+            color: $text_white;
+            &:hover {
+              color: $golden;
+            }
+          }
+        }
+        li:last-child {
+          background-color: $golden;
+          padding: 7px;
+          & > a:hover {
+            color: $text_white;
+          }
+        }
+      }
+    }
+  }
+  // /Nav
+
+  // Jumbotron
+  .jumbotron {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: $text_white;
+
+    h1 {
+      text-transform: uppercase;
+      font-weight: 300;
+      font-size: 40px;
+    }
+
+    p {
+      font-size: 13px;
+      padding: 10px;
+      color: #ffffff9f;
+    }
+  }
+}

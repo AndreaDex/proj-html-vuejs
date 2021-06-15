@@ -1,1 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.std_btn {
+  text-transform: uppercase;
+  padding: 6px 18px;
+  background-color: transparent;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.std_btn {
+  text-transform: uppercase;
+  padding: 6px 18px;
+  background-color: transparent;
+  color: white;
+}
+
+#site_header {
+  background-image: url("/dist/img/home-page-slider.jpg");
+  background-size: cover;
+  background-position-y: -60px;
+  height: 600px;
+}
+#site_header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+#site_header nav .logo_img {
+  height: 50px;
+}
+#site_header nav .menu .menu_list {
+  list-style: none;
+}
+#site_header nav .menu .menu_list li {
+  display: inline-block;
+  padding: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+#site_header nav .menu .menu_list li a {
+  text-decoration: none;
+  color: #fff;
+}
+#site_header nav .menu .menu_list li a:hover {
+  color: #fec96a;
+}
+#site_header nav .menu .menu_list li:last-child {
+  background-color: #fec96a;
+  padding: 7px;
+}
+#site_header nav .menu .menu_list li:last-child > a:hover {
+  color: #fff;
+}
+#site_header .jumbotron {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+#site_header .jumbotron h1 {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 40px;
+}
+#site_header .jumbotron p {
+  font-size: 13px;
+  padding: 10px;
+  color: #ffffff9f;
+}

@@ -1,5 +1,7 @@
 const app = new Vue({
   el: "#app",
-  data: {},
+  data: {
+    menuLinks: ["home", "mission", "causes", "journal", "donate"],
+  },
   methods: {},
 });

@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Avada Charity</title>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- Css -->
     <link rel="stylesheet" href="./dist/css/app.css" />
   </head>
@@ -12,19 +18,36 @@
   <body>
     <div id="app">
       <header id="site_header">
-        <nav>
-          <div class="logo">
-            <img
-              src="./dist/img/avada-charity-logo-retina.png"
-              alt="Avada logo"
-              class="logo_img"
-            />
-          </div>
-          <!-- /logo -->
+        <div class="container">
+          <nav>
+            <div class="logo">
+              <img
+                src="./dist/img/avada-charity-logo-retina.png"
+                alt="Avada logo"
+                class="logo_img"
+              />
+            </div>
+            <!-- /logo -->
 
-          <div class="menu"></div>
-          <!-- /menu -->
-        </nav>
+            <div class="menu">
+              <ul class="menu_list">
+                <li v-for="link in menuLinks"><a href="">{{link}}</a></li>
+              </ul>
+            </div>
+            <!-- /menu -->
+          </nav>
+          <!-- /nav -->
+          <div class="jumbotron">
+            <h1>Make a difference</h1>
+            <p>
+              As long as poverty,injustice & inequity persist, none of us can
+              truly rest
+            </p>
+            <button class="std_btn">Our Mission</button>
+            <button class="std_btn">Donate now</button>
+          </div>
+          <!-- /.jumbotron -->
+        </div>
       </header>
       <!-- /#site_header -->
       <main id="site_main">

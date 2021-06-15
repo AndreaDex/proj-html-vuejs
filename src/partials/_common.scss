@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+.std_btn {
+  text-transform: uppercase;
+  padding: 6px 18px;
+  background-color: transparent;
+  color: white;
+}
