@@ -7,7 +7,7 @@
     height: 400px;
     color: $text_white;
     text-align: center;
-    background-image: url("/dist/img/home-footer.jpg");
+    background-image: url("../img/home-footer.jpg");
     background-size: cover;
     background-position-y: center;
     display: flex;
@@ -21,6 +21,7 @@
       }
       p {
         font-size: 14px;
+        line-height: 25px;
       }
       button {
         border: 1px solid white;
