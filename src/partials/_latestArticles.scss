@@ -1,0 +1,10 @@
+@import "color";
+@import "mixin";
+@import "common";
+
+#latest_articles {
+  h2::after {
+    @include after_bar;
+    margin: 20px auto;
+  }
+}
