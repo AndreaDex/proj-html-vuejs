@@ -9,13 +9,6 @@
     @include after_bar;
     margin: 20px auto;
   }
-  p {
-    /* 
-       ! controllare render per sola opacità
-        */
-    color: black;
-    opacity: 0.8;
-  }
 
   #featured {
     padding: 70px 0;

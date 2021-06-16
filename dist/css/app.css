@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   box-sizing: border-box;
   margin: 0;
@@ -16,7 +15,7 @@ h2 {
 }
 
 p {
-  color: #9aa0a1;
+  opacity: 0.8;
 }
 
 .container {
@@ -49,7 +48,7 @@ h2 {
 }
 
 p {
-  color: #9aa0a1;
+  opacity: 0.8;
 }
 
 .container {
@@ -193,7 +192,7 @@ h2 {
 }
 
 p {
-  color: #9aa0a1;
+  opacity: 0.8;
 }
 
 .container {
@@ -280,7 +279,7 @@ h2 {
 }
 
 p {
-  color: #9aa0a1;
+  opacity: 0.8;
 }
 
 .container {
@@ -308,13 +307,6 @@ p {
   background-color: #fec96a;
   margin: 20px auto;
 }
-#recent_causes p {
-  /* 
-     ! controllare render per sola opacità
-      */
-  color: black;
-  opacity: 0.8;
-}
 #recent_causes #featured {
   padding: 70px 0;
   display: flex;
@@ -336,4 +328,50 @@ p {
   text-decoration: none;
   color: #fff;
   text-transform: uppercase;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+p {
+  opacity: 0.8;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.std_btn {
+  text-transform: uppercase;
+  padding: 6px 18px;
+  background-color: transparent;
+  color: white;
+  font-size: 11px;
+}
+
+#latest_articles {
+  text-align: center;
+  padding: 10px 0;
+}
+#latest_articles h2::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 140px;
+  background-color: #fec96a;
+  margin: 20px auto;
 }

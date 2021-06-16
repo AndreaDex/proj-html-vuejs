@@ -3,6 +3,9 @@
 @import "common";
 
 #latest_articles {
+  text-align: center;
+  padding: 10px 0;
+
   h2::after {
     @include after_bar;
     margin: 20px auto;
