@@ -5,23 +5,23 @@
 #values {
   display: flex;
   flex-direction: column;
-  height: 500px;
+  height: 550px;
   text-align: center;
   background-image: url(../img/home-content-bg-2.jpg);
   background-size: cover;
+  background-position-y: center;
   padding-top: 40px;
   color: $text_white;
 
   h2::after {
     @include after_bar;
-    margin: 10px auto;
+    margin: 20px auto;
   }
 
   .row {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50%;
     flex-grow: 2;
 
     .valuecard {

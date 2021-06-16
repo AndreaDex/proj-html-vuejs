@@ -29,17 +29,16 @@
           a {
             text-decoration: none;
             color: $text_white;
-            &:hover {
-              color: $golden;
-            }
+          }
+        }
+        li:first-child {
+          a {
+            color: $golden;
           }
         }
         li:last-child {
           background-color: $golden;
           padding: 7px;
-          & > a:hover {
-            color: $text_white;
-          }
         }
       }
     }
@@ -70,11 +69,10 @@
     button {
       border: 1px solid white;
       margin: 15px 5px;
-
-      &:hover {
-        border: 1px solid $golden;
-        color: $golden;
-      }
+    }
+    button:last-child {
+      border: 1px solid $golden;
+      color: $golden;
     }
   }
 }
