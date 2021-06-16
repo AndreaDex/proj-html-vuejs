@@ -43,11 +43,11 @@ const app = new Vue({
     ],
 
     articles: [
-      {
+      /*  {
         image: "./dist/img/photo-1444213007800-cff19e1677ac.jpg",
         title: "Understanding community complexities",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, earum. Minima quos sunt fugit",
-      },
+      }, */
       {
         image: "./dist/img/photo-1444664597500-035db93e2323-177x142.jpg",
         title: "The human story of uniqueness",
@@ -69,6 +69,10 @@ const app = new Vue({
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, earum. Minima quos sunt fugit",
       },
     ],
+    counter: 0,
+    selectedArticle: {},
   },
   methods: {},
+  computed: {},
+  mounted() {},
 });

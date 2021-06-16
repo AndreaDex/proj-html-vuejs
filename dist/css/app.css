@@ -65,7 +65,7 @@ p {
 }
 
 #site_header {
-  background-image: url("/dist/img/home-page-slider.jpg");
+  background-image: url(/images/home-page-slider.jpg?7b3ebab53616b94142a5b1eadd4b65b2);
   background-size: cover;
   background-position-y: -60px;
   min-height: 550px;
@@ -374,4 +374,34 @@ p {
   width: 140px;
   background-color: #fec96a;
   margin: 20px auto;
+}
+#latest_articles #reader {
+  width: 70%;
+  margin: 50px auto;
+  text-align: start;
+}
+#latest_articles #reader h3,
+#latest_articles #reader h4 {
+  color: #fec96a;
+  font-weight: 400;
+}
+#latest_articles #reader p {
+  font-size: 11px;
+}
+#latest_articles #reader .main_article {
+  width: 50%;
+  border: 1px solid rgba(211, 211, 211, 0.363);
+  box-shadow: 1px 1px rgba(211, 211, 211, 0.363);
+}
+#latest_articles #reader .main_article img {
+  width: 100%;
+}
+#latest_articles #reader .main_article .main_txt {
+  padding: 15px 20px;
+}
+#latest_articles #reader .main_article .main_txt h3 {
+  margin-bottom: 10px;
+}
+#latest_articles #reader .main_article .main_txt p {
+  line-height: 25px;
 }

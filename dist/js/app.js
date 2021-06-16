@@ -61,9 +61,13 @@ var app = new Vue({
       image: "./dist/img/photo-1460600421604-5e138c208b9c-177x142.jpg",
       title: "Meeting remote tribes in Perù",
       text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, earum. Minima quos sunt fugit"
-    }]
+    }],
+    counter: 0,
+    selectedArticle: {}
   },
-  methods: {}
+  methods: {},
+  computed: {},
+  mounted: function mounted() {}
 });
 
 /***/ }),
