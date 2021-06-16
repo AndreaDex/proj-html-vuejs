@@ -316,7 +316,7 @@ p {
   opacity: 0.8;
 }
 #recent_causes #featured {
-  padding: 30px 0;
+  padding: 70px 0;
   display: flex;
   justify-content: center;
 }
@@ -324,6 +324,16 @@ p {
   width: calc(100% / 5);
   margin: 0 11px;
 }
-#recent_causes #featured img {
+#recent_causes #featured .feature_img img {
   width: 100%;
+}
+#recent_causes #view_all {
+  background-color: #ed6967;
+  padding: 45px 0;
+  margin-top: 20px;
+}
+#recent_causes #view_all a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
 }
