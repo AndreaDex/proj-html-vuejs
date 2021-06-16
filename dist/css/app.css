@@ -511,4 +511,23 @@ p {
 }
 #site_footer #info span {
   font-size: 8px;
+  opacity: 0.8;
+}
+#site_footer #info #social {
+  display: flex;
+  justify-content: center;
+}
+#site_footer #info #social .social_link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 10px;
+}
+#site_footer #info #social .social_link i {
+  color: #fec96a;
+  font-size: 20px;
 }

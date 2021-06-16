@@ -64,8 +64,19 @@ var app = new Vue({
       title: "Meeting remote tribes in Perù",
       text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, earum. Minima quos sunt fugit"
     }],
-    counter: 0,
-    selectedArticle: {}
+    socialLinks: [{
+      path: "#",
+      icon: "fab fa-facebook-f"
+    }, {
+      path: "#",
+      icon: "fab fa-instagram"
+    }, {
+      path: "#",
+      icon: "fab fa-twitter"
+    }, {
+      path: "#",
+      icon: "fab fa-youtube"
+    }]
   },
   methods: {},
   computed: {},

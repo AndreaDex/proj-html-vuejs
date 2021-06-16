@@ -205,6 +205,11 @@
             >&copy; Copyright 2012 - 2020 AVADA THEME BY THEME FUSION | ALL
             RIGHT RESERVED | POWERED BY WORDPRESS</span
           >
+          <div id="social">
+            <div class="social_link" v-for="social in socialLinks">
+              <a :href="social.path"><i :class="social.icon"></i></a>
+            </div>
+          </div>
         </div>
       </footer>
       <!-- /#site_footer -->
