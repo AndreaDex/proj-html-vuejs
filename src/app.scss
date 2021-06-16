@@ -2,8 +2,9 @@
 @use 'partials/common';
 
 // Layout modules
+//HEADER
 @use 'partials/header';
-//Main
+//MAIN
 // section 'moment'
 @use 'partials/moment';
 // section 'values'
@@ -12,3 +13,5 @@
 @use 'partials/recentcauses';
 // section Latest_articles
 @use 'partials/latestArticles';
+//FOOTER
+@use 'partials/footer';

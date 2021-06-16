@@ -434,3 +434,51 @@ p {
   text-transform: uppercase;
   color: #fff;
 }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+p {
+  opacity: 0.8;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.std_btn {
+  text-transform: uppercase;
+  padding: 6px 18px;
+  background-color: transparent;
+  color: white;
+  font-size: 11px;
+}
+
+#site_footer #change {
+  height: 400px;
+  color: #fff;
+  text-align: center;
+  background-image: url(/images/home-footer.jpg?7d95a516d05ea92a1d054479247cdd4a);
+}
+#site_footer #change h2::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 140px;
+  background-color: #fec96a;
+  margin: 20px auto;
+}

@@ -1,0 +1,24 @@
+@import "color";
+@import "mixin";
+@import "common";
+
+#site_footer {
+  #change {
+    height: 400px;
+    color: $text_white;
+    text-align: center;
+    background-image: url("/dist/img/home-footer.jpg");
+    background-size: cover;
+    background-position-y: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .change_jumbo {
+      width: 50%;
+      h2::after {
+        @include after_bar;
+        margin: 20px auto;
+      }
+    }
+  }
+}
