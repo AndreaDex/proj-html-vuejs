@@ -3,7 +3,7 @@
 @import "common";
 
 #recent_causes {
-  padding: 50px 0;
+  padding-top: 50px;
   text-align: center;
   h2::after {
     @include after_bar;

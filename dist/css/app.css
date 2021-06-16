@@ -296,7 +296,7 @@ p {
 }
 
 #recent_causes {
-  padding: 50px 0;
+  padding-top: 50px;
   text-align: center;
 }
 #recent_causes h2::after {
@@ -365,7 +365,7 @@ p {
 
 #latest_articles {
   text-align: center;
-  padding: 10px 0;
+  padding: 60px 0;
   background-color: #f5f5f5;
 }
 #latest_articles h2::after {
@@ -422,4 +422,15 @@ p {
 }
 #latest_articles #reader .articles_list .article_card .article_prew {
   padding: 5px 10px;
+}
+#latest_articles #view_article {
+  padding: 15px 0;
+  background-color: #ed6967;
+  width: 70%;
+  margin: auto;
+}
+#latest_articles #view_article a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
 }
