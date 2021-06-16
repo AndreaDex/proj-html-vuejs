@@ -161,7 +161,13 @@
             </div>
 
             <div class="articles_list">
-              <div class="article_card"></div>
+              <div class="article_card" v-for="article in articles">
+                <img :src="article.image" alt="" />
+                <div class="article_prew">
+                  <h5>{{article.title}}</h5>
+                  <p>{{article.text}}</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
