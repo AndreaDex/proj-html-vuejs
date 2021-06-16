@@ -136,7 +136,7 @@ p {
 #moments .moment_lx {
   width: 70%;
   height: 100%;
-  padding: 75px;
+  padding: 65px;
 }
 #moments .moment_lx h2::after {
   content: "";
@@ -161,6 +161,7 @@ p {
   background-size: contain;
   color: #fff;
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
 }
 #moments .moment_rx .live_data {

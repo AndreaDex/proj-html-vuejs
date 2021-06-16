@@ -7,7 +7,7 @@
   .moment_lx {
     width: 70%;
     height: 100%;
-    padding: 75px;
+    padding: 65px;
 
     h2::after {
       @include after_bar;
@@ -31,6 +31,7 @@
     background-size: contain;
     color: $text_white;
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     .live_data {
       text-align: center;
