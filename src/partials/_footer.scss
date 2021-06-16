@@ -19,6 +19,28 @@
         @include after_bar;
         margin: 20px auto;
       }
+      p {
+        font-size: 14px;
+      }
+      button {
+        border: 1px solid white;
+        margin: 25px 10px;
+      }
+    }
+  }
+  #footer_logo {
+    text-align: center;
+    padding: 20px 0;
+    img {
+      height: 50px;
+    }
+  }
+  #info {
+    text-align: center;
+    padding: 20px 0;
+    background-color: $article_bg;
+    span {
+      font-size: 8px;
     }
   }
 }

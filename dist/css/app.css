@@ -472,13 +472,43 @@ p {
   height: 400px;
   color: #fff;
   text-align: center;
-  background-image: url(/images/home-footer.jpg?7d95a516d05ea92a1d054479247cdd4a);
+  background-image: url("/dist/img/home-footer.jpg");
+  background-size: cover;
+  background-position-y: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#site_footer #change h2::after {
+#site_footer #change .change_jumbo {
+  width: 50%;
+}
+#site_footer #change .change_jumbo h2::after {
   content: "";
   display: block;
   height: 2px;
   width: 140px;
   background-color: #fec96a;
   margin: 20px auto;
+}
+#site_footer #change .change_jumbo p {
+  font-size: 14px;
+}
+#site_footer #change .change_jumbo button {
+  border: 1px solid white;
+  margin: 25px 10px;
+}
+#site_footer #footer_logo {
+  text-align: center;
+  padding: 20px 0;
+}
+#site_footer #footer_logo img {
+  height: 50px;
+}
+#site_footer #info {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #f5f5f5;
+}
+#site_footer #info span {
+  font-size: 8px;
 }
