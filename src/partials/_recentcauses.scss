@@ -1,0 +1,33 @@
+@import "color";
+@import "mixin";
+@import "common";
+
+#recent_causes {
+  padding: 50px 0;
+  text-align: center;
+  h2::after {
+    @include after_bar;
+    margin: 20px auto;
+  }
+  p {
+    /* 
+       ! controllare render per sola opacità
+        */
+    color: black;
+    opacity: 0.8;
+  }
+
+  #featured {
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+
+    .feature_img {
+      width: calc(100% / 5);
+      margin: 0 11px;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
