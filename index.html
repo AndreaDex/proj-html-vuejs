@@ -91,7 +91,21 @@
           </div>
         </div>
         <!-- /moment section -->
-        <div></div>
+
+        <div id="values">
+          <!-- Potrebbe esserci un altro div con sfondo -->
+          <h2>our values</h2>
+          <p>Think Big. Act Bigger.</p>
+          <div class="row">
+            <div class="valuecard" v-for="value in values">
+              <i :class="value.icon"></i>
+              <h4>{{value.title}}</h4>
+              <span>{{value.text}}</span>
+              <button class="std_btn">learn more</button>
+            </div>
+          </div>
+        </div>
+        <!-- /#values -->
         <div></div>
         <div></div>
         <div></div>

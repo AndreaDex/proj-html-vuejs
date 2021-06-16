@@ -68,7 +68,8 @@ p {
   background-image: url("/dist/img/home-page-slider.jpg");
   background-size: cover;
   background-position-y: -60px;
-  height: 550px;
+  min-height: 550px;
+  height: 100vh;
 }
 #site_header nav {
   display: flex;
@@ -172,4 +173,91 @@ p {
 }
 #moments .moment_rx .live_data span {
   font-size: 25px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+p {
+  color: #9aa0a1;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.std_btn {
+  text-transform: uppercase;
+  padding: 6px 18px;
+  background-color: transparent;
+  color: white;
+  font-size: 11px;
+}
+
+#values {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  text-align: center;
+  background-image: url(/dist/img/home-content-bg-2.jpg);
+  background-size: cover;
+}
+#values h2 {
+  color: #fff;
+}
+#values h2::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 140px;
+  background-color: #fec96a;
+  margin: 10px auto;
+}
+#values .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  flex-grow: 2;
+}
+#values .row .valuecard {
+  width: calc(100% / 5);
+  margin: 0 11px;
+}
+#values .row .valuecard i {
+  font-size: 40px;
+  color: #fec96a;
+  margin-bottom: 5px;
+}
+#values .row .valuecard h4 {
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+}
+#values .row .valuecard span {
+  font-size: 9px;
+  line-height: 25px;
+  color: #fff;
+  opacity: 0.7;
+  display: inline-block;
+  margin: 20px 0;
+}
+#values .row .valuecard button {
+  background-color: #fec96a;
+  color: #fff;
+  border: none;
 }

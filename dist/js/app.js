@@ -23,6 +23,23 @@ var app = new Vue({
       icon: "fas fa-dollar-sign",
       stat: "3.8M",
       desc: "Donated"
+    }],
+    values: [{
+      icon: "fas fa-tint",
+      title: "Clean Water",
+      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, quidem ratione minus ipsa iste voluptate."
+    }, {
+      icon: "fas fa-stethoscope",
+      title: "Vaccinations",
+      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, quidem ratione minus ipsa iste voluptate."
+    }, {
+      icon: "fas fa-graduation-cap",
+      title: "Education",
+      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, quidem ratione minus ipsa iste voluptate."
+    }, {
+      icon: "fab fa-pagelines",
+      title: "Farming",
+      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, quidem ratione minus ipsa iste voluptate."
     }]
   },
   methods: {}
