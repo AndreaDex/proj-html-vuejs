@@ -25,10 +25,10 @@ p {
 
 .std_btn {
   text-transform: uppercase;
-  padding: 6px 18px;
+  padding: 10px 20px;
   background-color: transparent;
   color: white;
-  font-size: 11px;
+  font-size: 13px;
 }
 
 * {
@@ -58,10 +58,10 @@ p {
 
 .std_btn {
   text-transform: uppercase;
-  padding: 6px 18px;
+  padding: 10px 20px;
   background-color: transparent;
   color: white;
-  font-size: 11px;
+  font-size: 13px;
 }
 
 #site_header {
@@ -144,7 +144,7 @@ p {
   margin-top: 10px;
 }
 #moments .moment_lx p {
-  font-size: 12px;
+  font-size: 13px;
   padding: 10px 0;
   line-height: 25px;
 }
@@ -198,10 +198,10 @@ p {
 
 .std_btn {
   text-transform: uppercase;
-  padding: 6px 18px;
+  padding: 10px 20px;
   background-color: transparent;
   color: white;
-  font-size: 11px;
+  font-size: 13px;
 }
 
 #values {
@@ -243,7 +243,7 @@ p {
   font-weight: 400;
 }
 #values .row .valuecard span {
-  font-size: 9px;
+  font-size: 11px;
   line-height: 25px;
   opacity: 0.7;
   display: inline-block;
@@ -282,10 +282,10 @@ p {
 
 .std_btn {
   text-transform: uppercase;
-  padding: 6px 18px;
+  padding: 10px 20px;
   background-color: transparent;
   color: white;
-  font-size: 11px;
+  font-size: 13px;
 }
 
 #recent_causes {
@@ -350,10 +350,10 @@ p {
 
 .std_btn {
   text-transform: uppercase;
-  padding: 6px 18px;
+  padding: 10px 20px;
   background-color: transparent;
   color: white;
-  font-size: 11px;
+  font-size: 13px;
 }
 
 #latest_articles {
@@ -376,12 +376,12 @@ p {
   display: flex;
 }
 #latest_articles #reader h3,
-#latest_articles #reader h5 {
+#latest_articles #reader h4 {
   color: #fec96a;
-  font-weight: 400;
+  font-weight: 600;
 }
 #latest_articles #reader p {
-  font-size: 11px;
+  font-size: 12px;
   line-height: 25px;
 }
 #latest_articles #reader .main_article {
@@ -453,14 +453,14 @@ p {
 
 .std_btn {
   text-transform: uppercase;
-  padding: 6px 18px;
+  padding: 10px 20px;
   background-color: transparent;
   color: white;
-  font-size: 11px;
+  font-size: 13px;
 }
 
 #site_footer #change {
-  height: 400px;
+  height: 500px;
   color: #fff;
   text-align: center;
   background-image: url("../img/home-footer.jpg");
@@ -482,7 +482,6 @@ p {
   margin: 20px auto;
 }
 #site_footer #change .change_jumbo p {
-  font-size: 14px;
   line-height: 25px;
 }
 #site_footer #change .change_jumbo button {
