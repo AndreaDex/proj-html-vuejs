@@ -483,6 +483,7 @@ p {
   margin: 20px auto;
 }
 #site_footer #change .change_jumbo p {
+  opacity: 1;
   line-height: 25px;
 }
 #site_footer #change .change_jumbo button {
