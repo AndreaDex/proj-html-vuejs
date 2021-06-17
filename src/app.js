@@ -6,7 +6,7 @@ const app = new Vue({
       {
         icon: "far fa-heart",
         stat: 2032,
-        desc: "Volunteers Worldeide",
+        desc: "Volunteers Worldwide",
       },
       {
         icon: "fas fa-globe",

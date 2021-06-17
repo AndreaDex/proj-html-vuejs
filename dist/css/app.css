@@ -67,7 +67,7 @@ p {
 #site_header {
   background-image: url("../img/home-page-slider.jpg");
   background-size: cover;
-  background-position-y: -60px;
+  background-position-y: center;
   min-height: 550px;
   height: 100vh;
 }
@@ -109,12 +109,12 @@ p {
   color: #fff;
 }
 #site_header .jumbotron h1 {
-  font-weight: 300;
-  font-size: 40px;
+  font-weight: 400;
+  font-size: 45px;
   letter-spacing: 2px;
 }
 #site_header .jumbotron p {
-  font-size: 15px;
+  font-size: 18px;
   padding: 10px;
 }
 #site_header .jumbotron button {
@@ -144,13 +144,14 @@ p {
   margin-top: 10px;
 }
 #moments .moment_lx p {
-  font-size: 13px;
+  font-size: 15px;
   padding: 10px 0;
   line-height: 25px;
 }
 #moments .moment_lx button {
   border: none;
   background-color: #fec96a;
+  margin-top: 10px;
 }
 #moments .moment_rx {
   width: 30%;
@@ -507,6 +508,7 @@ p {
 #site_footer #info #social {
   display: flex;
   justify-content: center;
+  padding: 10px 0;
 }
 #site_footer #info #social .social_link {
   display: flex;

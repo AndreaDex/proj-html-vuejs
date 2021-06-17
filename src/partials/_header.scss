@@ -5,7 +5,7 @@
 #site_header {
   background-image: url("../img/home-page-slider.jpg");
   background-size: cover;
-  background-position-y: -60px;
+  background-position-y: center;
   min-height: 550px;
   height: 100vh;
   nav {
@@ -56,13 +56,13 @@
     color: $text_white;
 
     h1 {
-      font-weight: 300;
-      font-size: 40px;
+      font-weight: 400;
+      font-size: 45px;
       letter-spacing: 2px;
     }
 
     p {
-      font-size: 15px;
+      font-size: 18px;
       padding: 10px;
     }
 
