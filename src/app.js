@@ -1,7 +1,28 @@
 const app = new Vue({
   el: "#app",
   data: {
-    menuLinks: ["home", "mission", "causes", "journal", "donate"],
+    menuLinks: [
+      {
+        path: "#",
+        title: "home",
+      },
+      {
+        path: "#",
+        title: "mission",
+      },
+      {
+        path: "#",
+        title: "causes",
+      },
+      {
+        path: "#",
+        title: "journal",
+      },
+      {
+        path: "#",
+        title: "donate",
+      },
+    ],
     liveStats: [
       {
         icon: "far fa-heart",
